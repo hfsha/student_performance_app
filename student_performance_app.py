@@ -104,7 +104,7 @@ if page == "Home":
     # Clear button functionality
     if clear_button:
         reset_fields()
-        st.experimental_rerun()  # Replace with st.rerun() if using Streamlit version >= 1.14
+        st.experimental_rerun() 
 
     # Predict button functionality
     if predict_button:
