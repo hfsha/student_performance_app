@@ -14,7 +14,7 @@ from mpl_toolkits.mplot3d import Axes3D
 st.set_page_config(page_title="Student Performance Prediction", layout="centered")
 
 # Load the dataset
-DATA_PATH = "C:/Users/Shahidatul Hidayah/OneDrive/Documents/SEM 5/PRA/assgmt01_student_performance_dataset.csv"
+DATA_PATH = "assgmt01_student_performance_dataset.csv"
 
 @st.cache_data
 def load_data():
